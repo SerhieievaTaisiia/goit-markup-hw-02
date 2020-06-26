@@ -1,0 +1,94 @@
+:root {
+  --primary-text-color: #212121;
+  --title-text-color: #757575;
+  --accent-color: #2196f3;
+  --primary-bg-color: #ffffff;
+}
+
+body {
+  background-color: #ffffff;
+  color: var(--primary-text-color);
+}
+.logo {
+  color: var(--primary-text-color);
+  text-decoration: none;
+}
+span {
+  color: var(--accent-color);
+}
+ul {
+  list-style: none;
+}
+.site-nav a {
+  color: var(--primary-text-color);
+}
+.contacts a {
+  color: var(--title-text-color);
+}
+.site-nav a:hover,
+.site-nav a:focus {
+  color: var(--accent-color);
+}
+.contacts a:hover,
+.contacts a:focus {
+  color: var(--accent-color);
+}
+.section,
+.section-title {
+  color: var(--primary-text-color);
+}
+.features-list,
+.team-list .title {
+  color: var(--primary-text-color);
+}
+.titel-item {
+  color: var(--title-text-color);
+}
+.button {
+  color: var(--primary-text-color);
+  background-color: var(--primary-bg-color);
+  display: inline-block;
+  text-decoration: none;
+}
+.button-list {
+  color: var(--title-text-color);
+  border-color: transparent;
+}
+.button.primary {
+  background-color: v + ar(--accent-color);
+  color: var(--primary-bg-color);
+  border-color: transparent;
+}
+.button.secondary {
+  background-color: var(--accent-color);
+  color: var(--primary-bg-color);
+  border-color: transparent;
+}
+.team-list a,
+.clients-list a {
+  color: var(--title-text-color);
+}
+.team-list a:hover,
+.team-list a:focus,
+.clients-list a:hover,
+.clients-list a:focus,
+.button-list button:hover,
+.button-list button:focus {
+  color: var(--accent-color);
+}
+.footer-menu {
+  color: var(--primary-bg-color);
+  background-color: #2f303a;
+}
+.link {
+  text-decoration: none;
+  color: var(--primary-bg-color);
+}
+.link-list a,
+.address-list a {
+  color: var(--primary-bg-color);
+}
+.link-list a:hover,
+.link-list a:focus {
+  color: var(--accent-color);
+}
