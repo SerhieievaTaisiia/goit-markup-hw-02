@@ -50,12 +50,17 @@ ul {
   display: inline-block;
   text-decoration: none;
 }
+.button:hover,
+.button:focus {
+  color: var(--primary-bg-color);
+  background-color: var(--accent-color);
+}
 .button-list {
   color: var(--title-text-color);
   border-color: transparent;
 }
 .button.primary {
-  background-color: v + ar(--accent-color);
+  background-color: var(--accent-color);
   color: var(--primary-bg-color);
   border-color: transparent;
 }
@@ -71,9 +76,7 @@ ul {
 .team-list a:hover,
 .team-list a:focus,
 .clients-list a:hover,
-.clients-list a:focus,
-.button-list button:hover,
-.button-list button:focus {
+.clients-list a:focus {
   color: var(--accent-color);
 }
 .footer-menu {
