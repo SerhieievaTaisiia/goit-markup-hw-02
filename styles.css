@@ -8,10 +8,16 @@
 body {
   background-color: #ffffff;
   color: var(--primary-text-color);
+  font-family: Roboto, sans-serif;
 }
 .logo {
   color: var(--primary-text-color);
   text-decoration: none;
+  font-family: Raleway, sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
 }
 span {
   color: var(--accent-color);
@@ -21,9 +27,17 @@ ul {
 }
 .site-nav a {
   color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 .contacts a {
   color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 .site-nav a:hover,
 .site-nav a:focus {
@@ -33,22 +47,72 @@ ul {
 .contacts a:focus {
   color: var(--accent-color);
 }
-.section,
+.hero,
+.hero-titel {
+  color: var(--primary-text-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.3;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
 .section-title {
   color: var(--primary-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 .features-list,
 .team-list .title {
   color: var(--primary-text-color);
 }
+.features-list,
+.title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.team-list,
+.title-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+.titel-item-position {
+  color: var(--title-text-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
 .titel-item {
   color: var(--title-text-color);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+}
+.works-list {
+  color: var(--primary-text-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 .button {
   color: var(--primary-text-color);
   background-color: var(--primary-bg-color);
   display: inline-block;
   text-decoration: none;
+  font-family: inherit;
 }
 .button:hover,
 .button:focus {
@@ -59,15 +123,14 @@ ul {
   color: var(--title-text-color);
   border-color: transparent;
 }
-.button.primary {
-  background-color: var(--accent-color);
-  color: var(--primary-bg-color);
-  border-color: transparent;
-}
+.button.primary,
 .button.secondary {
   background-color: var(--accent-color);
   color: var(--primary-bg-color);
   border-color: transparent;
+}
+.button.primary {
+  text-align: center;
 }
 .team-list a,
 .clients-list a {
